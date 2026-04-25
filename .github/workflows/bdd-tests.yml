@@ -105,11 +105,14 @@ jobs:
           fi
 
           echo "Submitting Cucumber results to Xray..."
+          INFO_JSON='{"fields":{"project":{"key":"KAN"},"summary":"BDD Test Execution","issuetype":{"name":"Feature"}},"xrayFields":{"testPlanKey":"KAN-6"}}'
+          echo "$INFO_JSON" > /tmp/xray-info.json
+
           RESPONSE=$(curl -s -X POST \
-            "https://eu.xray.cloud.getxray.app/api/v2/import/execution/cucumber?testPlanKey=KAN-6&projectKey=KAN" \
+            "https://eu.xray.cloud.getxray.app/api/v2/import/execution/cucumber/multipart" \
             -H "Authorization: Bearer $TOKEN" \
-            -H "Content-Type: application/json" \
-            -d @reports/cucumber-report.json)
+            -F "results=@reports/cucumber-report.json;type=application/json" \
+            -F "info=@/tmp/xray-info.json;type=application/json")
 
           echo "Xray response: $RESPONSE"
 
