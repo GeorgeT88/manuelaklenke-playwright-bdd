@@ -16,6 +16,8 @@ jobs:
   bdd-tests:
     name: Playwright BDD Tests
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
