@@ -1,0 +1,19 @@
+{
+  "name": "manuelaklenke-playwright-bdd",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "cucumber-js",
+    "test:report": "npx playwright show-report"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.52.0",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0",
+    "ts-node": "^10.9.2"
+  }
+}
