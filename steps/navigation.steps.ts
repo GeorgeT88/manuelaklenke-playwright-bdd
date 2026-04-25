@@ -19,7 +19,7 @@ Then('the footer is visible', async function (this: PlaywrightWorld) {
 
 When('I click the {string} link in the navbar', async function (this: PlaywrightWorld, linkText: string) {
   await this.page.locator('nav').getByRole('link', { name: linkText }).first().click();
-  await this.page.waitForLoadState('networkidle');
+  await this.page.waitForLoadState('load');
 });
 
 Then('I am on the {string} page', async function (this: PlaywrightWorld, path: string) {
