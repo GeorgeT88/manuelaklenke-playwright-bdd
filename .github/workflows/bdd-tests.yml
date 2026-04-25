@@ -73,7 +73,9 @@ jobs:
           </style></head>
           <body>
           <h1>Playwright BDD Test Report</h1>
-          <p>Generated: \${new Date().toUTCString()}</p>
+          <p>Generated: \${new Date().toUTCString()} &nbsp;|&nbsp;
+          <a href="https://manuelaklenke.atlassian.net/browse/KAN-6" target="_blank">📋 Xray Test Plan (KAN-6)</a> &nbsp;|&nbsp;
+          <a href="https://georget88.github.io/manuelaklenke-playwright-bdd/" target="_blank">📊 Latest Report</a></p>
           <div class=\"summary\">
             <div class=\"card total\"><div class=\"num\">\${total}</div><div class=\"lbl\">Total</div></div>
             <div class=\"card pass\"><div class=\"num\">\${passed}</div><div class=\"lbl\">Passed</div></div>
