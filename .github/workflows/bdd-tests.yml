@@ -125,6 +125,17 @@ jobs:
             exit 1
           fi
 
+      - name: Write job summary
+        if: always()
+        run: |
+          echo "## Playwright BDD Test Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| | Link |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|" >> $GITHUB_STEP_SUMMARY
+          echo "| 📊 HTML Report | [GitHub Pages](https://georget88.github.io/manuelaklenke-playwright-bdd/) |" >> $GITHUB_STEP_SUMMARY
+          echo "| 📋 Xray Test Plan | [KAN-6 — manuelaklenke.com E2E Test Plan](https://manuelaklenke.atlassian.net/browse/KAN-6) |" >> $GITHUB_STEP_SUMMARY
+          echo "| 📈 Xray Metrics | [Test Plans Metrics Report](https://manuelaklenke.atlassian.net/jira/software/projects/KAN/reports/test-plans-metrics) |" >> $GITHUB_STEP_SUMMARY
+
       - name: Deploy to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
