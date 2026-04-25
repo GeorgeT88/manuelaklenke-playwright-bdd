@@ -86,6 +86,40 @@ jobs:
           console.log('Report generated: public/index.html');
           "
 
+      - name: Report results to Xray
+        if: always()
+        env:
+          XRAY_CLIENT_ID: ${{ secrets.XRAY_CLIENT_ID }}
+          XRAY_CLIENT_SECRET: ${{ secrets.XRAY_CLIENT_SECRET }}
+        run: |
+          echo "Authenticating with Xray..."
+          TOKEN=$(curl -s -X POST \
+            "https://xray.cloud.getxray.app/api/v2/authenticate" \
+            -H "Content-Type: application/json" \
+            -d "{\"client_id\": \"$XRAY_CLIENT_ID\", \"client_secret\": \"$XRAY_CLIENT_SECRET\"}" \
+            | tr -d '"')
+
+          if [ -z "$TOKEN" ] || [ "$TOKEN" = "null" ]; then
+            echo "Xray authentication failed."
+            exit 1
+          fi
+
+          echo "Submitting Cucumber results to Xray..."
+          RESPONSE=$(curl -s -X POST \
+            "https://xray.cloud.getxray.app/api/v2/import/execution/cucumber" \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Content-Type: application/json" \
+            -d @reports/cucumber-report.json)
+
+          echo "Xray response: $RESPONSE"
+
+          if echo "$RESPONSE" | grep -q '"id"'; then
+            echo "Results successfully submitted to Xray."
+          else
+            echo "Xray submission may have failed — check response above."
+            exit 1
+          fi
+
       - name: Deploy to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
