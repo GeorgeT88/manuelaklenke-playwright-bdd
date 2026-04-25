@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "cucumber-js",
+    "test": "cucumber-js --config cucumber.config.ts",
     "test:report": "npx playwright show-report"
   },
   "dependencies": {
