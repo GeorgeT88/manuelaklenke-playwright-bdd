@@ -14,7 +14,7 @@ Feature: Navigation
   @KAN-9
   Scenario: Navigate to Portfolio page via navbar
     Given I open the home page
-    When I click the "Portfolio" link in the navbar
+    When I click the "Translated books" link in the navbar
     Then I am on the "/portfolio" page
 
   @KAN-10
