@@ -106,7 +106,7 @@ jobs:
 
           echo "Submitting Cucumber results to Xray..."
           RESPONSE=$(curl -s -X POST \
-            "https://eu.xray.cloud.getxray.app/api/v2/import/execution/cucumber" \
+            "https://eu.xray.cloud.getxray.app/api/v2/import/execution/cucumber?testPlanKey=KAN-6&projectKey=KAN" \
             -H "Authorization: Bearer $TOKEN" \
             -H "Content-Type: application/json" \
             -d @reports/cucumber-report.json)
