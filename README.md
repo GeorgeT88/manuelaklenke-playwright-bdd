@@ -50,57 +50,57 @@ cucumber.js               # Cucumber configuration
 
 ### Global
 
-| Scenario | Xray | Feature file | Status |
-|---|---|---|---|
-| Navbar is visible on all pages | [KAN-7](https://manuelaklenke.atlassian.net/browse/KAN-7) | navigation.feature | ✅ Covered |
-| Footer is visible on all pages | [KAN-12](https://manuelaklenke.atlassian.net/browse/KAN-12) | navigation.feature | ✅ Covered |
-| Unknown URL shows 404 page | [KAN-13](https://manuelaklenke.atlassian.net/browse/KAN-13) | navigation.feature | ✅ Covered |
+| Scenario | Xray | Status |
+|---|---|---|
+| Navbar is visible on all pages | [KAN-7](https://manuelaklenke.atlassian.net/browse/KAN-7) | ✅ |
+| Footer is visible on all pages | [KAN-12](https://manuelaklenke.atlassian.net/browse/KAN-12) | ✅ |
+| Unknown URL shows 404 page | [KAN-13](https://manuelaklenke.atlassian.net/browse/KAN-13) | ✅ |
 
 ### Home
 
-| Scenario | Xray | Feature file | Status |
-|---|---|---|---|
-| Home page loads successfully | [KAN-4](https://manuelaklenke.atlassian.net/browse/KAN-4) | home.feature | ✅ Covered |
-| Hero section is visible | — | home.feature | ❌ Not covered |
-| Language switcher changes content | — | home.feature | ❌ Not covered |
+| Scenario | Xray | Status |
+|---|---|---|
+| Home page loads successfully | [KAN-4](https://manuelaklenke.atlassian.net/browse/KAN-4) | ✅ |
+| Hero section is visible | — | ❌ |
+| Language switcher changes content | — | ❌ |
 
 ### Navigation (Navbar links)
 
-| Scenario | Xray | Feature file | Status |
-|---|---|---|---|
-| Navigate to About page | [KAN-8](https://manuelaklenke.atlassian.net/browse/KAN-8) | navigation.feature | ✅ Covered |
-| Navigate to Portfolio page | [KAN-9](https://manuelaklenke.atlassian.net/browse/KAN-9) | navigation.feature | ✅ Covered |
-| Navigate to Events page | [KAN-10](https://manuelaklenke.atlassian.net/browse/KAN-10) | navigation.feature | ✅ Covered |
-| Navigate to Contact page | [KAN-11](https://manuelaklenke.atlassian.net/browse/KAN-11) | navigation.feature | ✅ Covered |
+| Scenario | Xray | Status |
+|---|---|---|
+| Navigate to About page | [KAN-8](https://manuelaklenke.atlassian.net/browse/KAN-8) | ✅ |
+| Navigate to Portfolio page | [KAN-9](https://manuelaklenke.atlassian.net/browse/KAN-9) | ✅ |
+| Navigate to Events page | [KAN-10](https://manuelaklenke.atlassian.net/browse/KAN-10) | ✅ |
+| Navigate to Contact page | [KAN-11](https://manuelaklenke.atlassian.net/browse/KAN-11) | ✅ |
 
 ### About
 
-| Scenario | Xray | Feature file | Status |
-|---|---|---|---|
-| About page loads successfully | — | about.feature | ❌ Not covered |
-| About page content is visible | — | about.feature | ❌ Not covered |
+| Scenario | Xray | Status |
+|---|---|---|
+| About page loads successfully | — | ❌ |
+| About page content is visible | — | ❌ |
 
 ### Portfolio (Translated Books)
 
-| Scenario | Xray | Feature file | Status |
-|---|---|---|---|
-| Portfolio page loads successfully | — | portfolio.feature | ❌ Not covered |
-| Book list is visible | — | portfolio.feature | ❌ Not covered |
+| Scenario | Xray | Status |
+|---|---|---|
+| Portfolio page loads successfully | — | ❌ |
+| Book list is visible | — | ❌ |
 
 ### Events
 
-| Scenario | Xray | Feature file | Status |
-|---|---|---|---|
-| Events page loads successfully | — | events.feature | ❌ Not covered |
-| Events list is visible | — | events.feature | ❌ Not covered |
+| Scenario | Xray | Status |
+|---|---|---|
+| Events page loads successfully | — | ❌ |
+| Events list is visible | — | ❌ |
 
 ### Contact
 
-| Scenario | Xray | Feature file | Status |
-|---|---|---|---|
-| Contact page loads successfully | — | contact.feature | ❌ Not covered |
-| Contact form is visible | — | contact.feature | ❌ Not covered |
-| Submit contact form with valid data | — | contact.feature | ❌ Not covered |
+| Scenario | Xray | Status |
+|---|---|---|
+| Contact page loads successfully | — | ❌ |
+| Contact form is visible | — | ❌ |
+| Submit contact form with valid data | — | ❌ |
 
 ---
 
