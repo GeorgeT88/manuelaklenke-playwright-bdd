@@ -44,63 +44,7 @@ cucumber.js               # Cucumber configuration
 
 ## 🗺️ Test Map
 
-> Full test map: [GitHub Wiki](https://github.com/GeorgeT88/manuelaklenke-playwright-bdd/wiki/Test-Map-%E2%80%94-manuelaklenke.com-BDD-Coverage)
-
-> Update this table whenever a new scenario is added. Check here before writing new tests to avoid duplicates.
-
-### Global
-
-| Scenario | Xray | Status |
-|---|---|---|
-| Navbar is visible on all pages | [KAN-7](https://manuelaklenke.atlassian.net/browse/KAN-7) | ✅ |
-| Footer is visible on all pages | [KAN-12](https://manuelaklenke.atlassian.net/browse/KAN-12) | ✅ |
-| Unknown URL shows 404 page | [KAN-13](https://manuelaklenke.atlassian.net/browse/KAN-13) | ✅ |
-
-### Home
-
-| Scenario | Xray | Status |
-|---|---|---|
-| Home page loads successfully | [KAN-4](https://manuelaklenke.atlassian.net/browse/KAN-4) | ✅ |
-| Hero section is visible | — | ❌ |
-| Language switcher changes content | — | ❌ |
-
-### Navigation (Navbar links)
-
-| Scenario | Xray | Status |
-|---|---|---|
-| Navigate to About page | [KAN-8](https://manuelaklenke.atlassian.net/browse/KAN-8) | ✅ |
-| Navigate to Portfolio page | [KAN-9](https://manuelaklenke.atlassian.net/browse/KAN-9) | ✅ |
-| Navigate to Events page | [KAN-10](https://manuelaklenke.atlassian.net/browse/KAN-10) | ✅ |
-| Navigate to Contact page | [KAN-11](https://manuelaklenke.atlassian.net/browse/KAN-11) | ✅ |
-
-### About
-
-| Scenario | Xray | Status |
-|---|---|---|
-| About page loads successfully | — | ❌ |
-| About page content is visible | — | ❌ |
-
-### Portfolio (Translated Books)
-
-| Scenario | Xray | Status |
-|---|---|---|
-| Portfolio page loads successfully | — | ❌ |
-| Book list is visible | — | ❌ |
-
-### Events
-
-| Scenario | Xray | Status |
-|---|---|---|
-| Events page loads successfully | — | ❌ |
-| Events list is visible | — | ❌ |
-
-### Contact
-
-| Scenario | Xray | Status |
-|---|---|---|
-| Contact page loads successfully | — | ❌ |
-| Contact form is visible | — | ❌ |
-| Submit contact form with valid data | — | ❌ |
+Full test map with coverage status: [GitHub Wiki](https://github.com/GeorgeT88/manuelaklenke-playwright-bdd/wiki/Test-Map-%E2%80%94-manuelaklenke.com-BDD-Coverage)
 
 ---
 
