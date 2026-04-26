@@ -44,6 +44,8 @@ cucumber.js               # Cucumber configuration
 
 ## 🗺️ Test Map
 
+> Full test map: [GitHub Wiki](https://github.com/GeorgeT88/manuelaklenke-playwright-bdd/wiki)
+
 > Update this table whenever a new scenario is added. Check here before writing new tests to avoid duplicates.
 
 ### Global
