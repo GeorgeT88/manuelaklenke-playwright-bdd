@@ -50,15 +50,15 @@ cucumber.js               # Cucumber configuration
 
 | Scenario | Xray | Feature file | Status |
 |---|---|---|---|
-| Navbar is visible on all pages | KAN-7 | navigation.feature | ✅ Covered |
-| Footer is visible on all pages | KAN-12 | navigation.feature | ✅ Covered |
-| Unknown URL shows 404 page | KAN-13 | navigation.feature | ✅ Covered |
+| Navbar is visible on all pages | [KAN-7](https://manuelaklenke.atlassian.net/browse/KAN-7) | navigation.feature | ✅ Covered |
+| Footer is visible on all pages | [KAN-12](https://manuelaklenke.atlassian.net/browse/KAN-12) | navigation.feature | ✅ Covered |
+| Unknown URL shows 404 page | [KAN-13](https://manuelaklenke.atlassian.net/browse/KAN-13) | navigation.feature | ✅ Covered |
 
 ### Home
 
 | Scenario | Xray | Feature file | Status |
 |---|---|---|---|
-| Home page loads successfully | KAN-4 | home.feature | ✅ Covered |
+| Home page loads successfully | [KAN-4](https://manuelaklenke.atlassian.net/browse/KAN-4) | home.feature | ✅ Covered |
 | Hero section is visible | — | home.feature | ❌ Not covered |
 | Language switcher changes content | — | home.feature | ❌ Not covered |
 
@@ -66,10 +66,10 @@ cucumber.js               # Cucumber configuration
 
 | Scenario | Xray | Feature file | Status |
 |---|---|---|---|
-| Navigate to About page | KAN-8 | navigation.feature | ✅ Covered |
-| Navigate to Portfolio page | KAN-9 | navigation.feature | ✅ Covered |
-| Navigate to Events page | KAN-10 | navigation.feature | ✅ Covered |
-| Navigate to Contact page | KAN-11 | navigation.feature | ✅ Covered |
+| Navigate to About page | [KAN-8](https://manuelaklenke.atlassian.net/browse/KAN-8) | navigation.feature | ✅ Covered |
+| Navigate to Portfolio page | [KAN-9](https://manuelaklenke.atlassian.net/browse/KAN-9) | navigation.feature | ✅ Covered |
+| Navigate to Events page | [KAN-10](https://manuelaklenke.atlassian.net/browse/KAN-10) | navigation.feature | ✅ Covered |
+| Navigate to Contact page | [KAN-11](https://manuelaklenke.atlassian.net/browse/KAN-11) | navigation.feature | ✅ Covered |
 
 ### About
 
