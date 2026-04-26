@@ -44,7 +44,7 @@ cucumber.js               # Cucumber configuration
 
 ## 🗺️ Test Map
 
-> Full test map: [GitHub Wiki](https://github.com/GeorgeT88/manuelaklenke-playwright-bdd/wiki)
+> Full test map: [GitHub Wiki](https://github.com/GeorgeT88/manuelaklenke-playwright-bdd/wiki/Test-Map-%E2%80%94-manuelaklenke.com-BDD-Coverage)
 
 > Update this table whenever a new scenario is added. Check here before writing new tests to avoid duplicates.
 
