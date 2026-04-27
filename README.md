@@ -10,7 +10,7 @@ BDD test suite for [manuelaklenke.com](https://manuelaklenke.com) using Playwrig
 |---|---|
 | Latest BDD run | [GitHub Pages](https://georget88.github.io/manuelaklenke-playwright-bdd/) |
 | Test Map | [GitHub Wiki](https://github.com/GeorgeT88/manuelaklenke-playwright-bdd/wiki/Test-Map-%E2%80%94-manuelaklenke.com-BDD-Coverage) |
-| Xray Test Plan | [KAN-6 — manuelaklenke.com E2E Test Plan](https://manuelaklenke.atlassian.net/browse/KAN-6) |
+
 | Xray Metrics | [Reporting Center](https://manuelaklenke.atlassian.net/plugins/servlet/ac/com.xpandit.plugins.xray/testplans-metrics-report-page?project.key=KAN&project.id=10001) |
 
 ---
