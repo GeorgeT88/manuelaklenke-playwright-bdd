@@ -82,9 +82,3 @@ Tests can also be triggered manually from **Actions → Playwright BDD Tests →
 | Push via app repo | `Playwright BDD Tests — triggered by Vercel deploy` |
 | Manual | `Playwright BDD Tests — manual run` |
 | Nightly schedule (07:00 UTC) | `Playwright BDD Tests — nightly run` |
-
----
-
-## ⚠️ Known App Issues
-
-- `ipapi.co` CORS errors on all pages — caused by IP-based language detection on a free-tier API
