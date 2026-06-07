@@ -1,13 +1,9 @@
 name: Playwright BDD Tests
 
 on:
-  repository_dispatch:
-    types: [vercel-deploy]
   workflow_dispatch:
 
-run-name: >
-  ${{ github.event_name == 'repository_dispatch' && 'Playwright BDD Tests — triggered by Vercel deploy' ||
-      'Playwright BDD Tests — manual run' }}
+run-name: Playwright BDD Tests — manual run
 
 jobs:
   bdd-tests:
